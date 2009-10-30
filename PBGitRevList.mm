@@ -89,8 +89,8 @@ using namespace std;
 
 	NSString *directory = rev.workingDirectory ? rev.workingDirectory.path : repository.fileURL.path;
 	NSTask *task = [PBEasyPipe taskForCommand:[PBGitBinary path] withArgs:arguments inDir:directory];
-	[task launch];
 	NSFileHandle* handle = [task.standardOutput fileHandleForReading];
+	[task launch];
 	
 	int fd = [handle fileDescriptor];
 	__gnu_cxx::stdio_filebuf<char> buf(fd, std::ios::in);
