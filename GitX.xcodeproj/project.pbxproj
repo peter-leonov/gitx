@@ -29,6 +29,7 @@
 		47DBDB6A0E94EF6500671A1E /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47DBDB680E94EF6500671A1E /* Preferences.xib */; };
 		47DBDBB10E94F6CA00671A1E /* Updates.png in Resources */ = {isa = PBXBuildFile; fileRef = 47DBDBB00E94F6CA00671A1E /* Updates.png */; };
 		47DBDBCA0E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DBDBC90E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.m */; };
+		4FDA564B109B31F200BCBE89 /* PBCommitMessageBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA564A109B31F200BCBE89 /* PBCommitMessageBackgroundView.m */; };
 		770B37ED0679A11B001EADE2 /* GitTest_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* GitTest_DataModel.xcdatamodel */; };
 		77C8280E06725ACE000B614F /* ApplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* ApplicationController.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -42,7 +43,6 @@
 		913D5E5F0E556A9300CECEA2 /* PBCLIProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 913D5E5E0E556A9300CECEA2 /* PBCLIProxy.m */; };
 		91B103CC0E898EC300C84364 /* PBIconAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B103CB0E898EC300C84364 /* PBIconAndTextCell.m */; };
 		93CB42C20EAB7B2200530609 /* PBGitDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CB42C10EAB7B2200530609 /* PBGitDefaults.m */; };
-		93F7857F0EA3ABF100C1F443 /* PBCommitMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F7857E0EA3ABF100C1F443 /* PBCommitMessageView.m */; };
 		D26DC6450E782C9000C777B2 /* gitx.icns in Resources */ = {isa = PBXBuildFile; fileRef = D26DC6440E782C9000C777B2 /* gitx.icns */; };
 		EB2A734A0FEE3F09006601CF /* PBCollapsibleSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2A73490FEE3F09006601CF /* PBCollapsibleSplitView.m */; };
 		F50A411F0EBB874C00208746 /* mainSplitterBar.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F50A411D0EBB874C00208746 /* mainSplitterBar.tiff */; };
@@ -186,6 +186,8 @@
 		47DBDBB00E94F6CA00671A1E /* Updates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Updates.png; path = Images/Preferences/Updates.png; sourceTree = "<group>"; };
 		47DBDBC80E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBNSURLPathUserDefaultsTransfomer.h; sourceTree = "<group>"; };
 		47DBDBC90E95016F00671A1E /* PBNSURLPathUserDefaultsTransfomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBNSURLPathUserDefaultsTransfomer.m; sourceTree = "<group>"; };
+		4FDA5649109B31F200BCBE89 /* PBCommitMessageBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommitMessageBackgroundView.h; sourceTree = "<group>"; };
+		4FDA564A109B31F200BCBE89 /* PBCommitMessageBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCommitMessageBackgroundView.m; sourceTree = "<group>"; };
 		770B37EC0679A11B001EADE2 /* GitTest_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = GitTest_DataModel.xcdatamodel; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		77C8280B06725ACE000B614F /* ApplicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationController.h; sourceTree = "<group>"; };
@@ -204,8 +206,6 @@
 		91B103CB0E898EC300C84364 /* PBIconAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBIconAndTextCell.m; sourceTree = "<group>"; };
 		93CB42C00EAB7B2200530609 /* PBGitDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBGitDefaults.h; sourceTree = "<group>"; };
 		93CB42C10EAB7B2200530609 /* PBGitDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitDefaults.m; sourceTree = "<group>"; };
-		93F7857D0EA3ABF100C1F443 /* PBCommitMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCommitMessageView.h; sourceTree = "<group>"; };
-		93F7857E0EA3ABF100C1F443 /* PBCommitMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCommitMessageView.m; sourceTree = "<group>"; };
 		93FCCBA80EA8AF450061B02B /* PBGitConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBGitConfig.m; sourceTree = "<group>"; };
 		D26DC6440E782C9000C777B2 /* gitx.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = gitx.icns; sourceTree = "<group>"; };
 		EB2A73480FEE3F09006601CF /* PBCollapsibleSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCollapsibleSplitView.h; sourceTree = "<group>"; };
@@ -645,8 +645,8 @@
 		F5E927E30E883D6800056E75 /* Commit */ = {
 			isa = PBXGroup;
 			children = (
-				93F7857D0EA3ABF100C1F443 /* PBCommitMessageView.h */,
-				93F7857E0EA3ABF100C1F443 /* PBCommitMessageView.m */,
+				4FDA5649109B31F200BCBE89 /* PBCommitMessageBackgroundView.h */,
+				4FDA564A109B31F200BCBE89 /* PBCommitMessageBackgroundView.m */,
 				F593DF760E9E636C003A8559 /* PBFileChangesTableView.h */,
 				F593DF770E9E636C003A8559 /* PBFileChangesTableView.m */,
 			);
@@ -922,7 +922,6 @@
 				F56244090E9684B0002B6C44 /* PBUnsortableTableHeader.m in Sources */,
 				F53C4DF70E97FC630022AD59 /* PBGitBinary.m in Sources */,
 				F593DF780E9E636C003A8559 /* PBFileChangesTableView.m in Sources */,
-				93F7857F0EA3ABF100C1F443 /* PBCommitMessageView.m in Sources */,
 				93CB42C20EAB7B2200530609 /* PBGitDefaults.m in Sources */,
 				F5E424150EA3E4E10046E362 /* PBDiffWindowController.m in Sources */,
 				F5E424180EA3E4EB0046E362 /* PBWebDiffController.m in Sources */,
@@ -938,6 +937,7 @@
 				F562C8870FE1766C000EC528 /* NSString_RegEx.m in Sources */,
 				EB2A734A0FEE3F09006601CF /* PBCollapsibleSplitView.m in Sources */,
 				F59F1DD5105C4FF300115F88 /* PBGitIndex.m in Sources */,
+				4FDA564B109B31F200BCBE89 /* PBCommitMessageBackgroundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
