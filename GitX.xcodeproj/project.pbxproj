@@ -727,6 +727,7 @@
 			buildPhases = (
 				913D5E460E55644600CECEA2 /* Sources */,
 				913D5E470E55644600CECEA2 /* Frameworks */,
+				D0B444321794A80E001A7BD4 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -846,6 +847,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		D0B444321794A80E001A7BD4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd libgit2\nmake\n";
+		};
 		F56439F60F792B2100A579C2 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
