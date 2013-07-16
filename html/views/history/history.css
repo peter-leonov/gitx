@@ -104,7 +104,7 @@ hr {
 	clear: both;
 }
 
-a {
+a[href] {
 	color: rgb(20, 79, 174);
 }
 

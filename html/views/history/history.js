@@ -163,6 +163,8 @@ var showRefs = function() {
 		refs.parentNode.style.display = "none";
 }
 
+var commitURI = Controller.getConfig_('github.uri')
+
 var loadCommit = function(commitObject, currentRef) {
 	// These are only the things we can do instantly.
 	// Other information will be loaded later by loadCommitDetails,
@@ -176,6 +178,11 @@ var loadCommit = function(commitObject, currentRef) {
 	commit.currentRef = currentRef;
 
 	$("commitID").innerHTML = commit.sha;
+	if (commitURI)
+		$("commitID").href = commitURI.replace('${SHA}', commit.sha);
+	else
+		$("commitID").removeAttribute('href');
+	
 	$("authorID").innerHTML = commit.author_name;
 	$("subjectID").innerHTML = commit.subject.escapeHTML();
 	$("diff").innerHTML = ""
