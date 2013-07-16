@@ -115,7 +115,7 @@
 	
 	[style setAlignment:NSCenterTextAlignment];
 	[attributes setObject:style forKey:NSParagraphStyleAttributeName];
-	[attributes setObject:[NSFont fontWithName:@"Helvetica" size:9] forKey:NSFontAttributeName];
+	[attributes setObject:[NSFont fontWithName:@"Helvetica" size:10] forKey:NSFontAttributeName];
 
 	//if (selected)
 	//	[attributes setObject:[NSColor alternateSelectedControlTextColor] forKey:NSForegroundColorAttributeName];
@@ -146,7 +146,7 @@
 	NSMutableArray *array = [NSMutableArray array];
 	
 	static const int ref_padding = 10;
-	static const int ref_spacing = 2;
+	static const int ref_spacing = 4;
 	
 	NSRect lastRect = rect;
 	lastRect.origin.x = round(lastRect.origin.x) - 0.5;
@@ -175,7 +175,7 @@
 	PBGitRef *ref = [refs objectAtIndex:index];
 	
 	NSMutableDictionary* attributes = [self attributesForRefLabelSelected:[self isHighlighted]];
-	NSBezierPath *border = [NSBezierPath bezierPathWithRoundedRect:rect cornerRadius: 2.0];
+	NSBezierPath *border = [NSBezierPath bezierPathWithRoundedRect:rect cornerRadius: 6.0];
 	[[self colorForRef:ref] set];
 	[border fill];
 	
