@@ -119,10 +119,6 @@
 	}		
 	
 	NSString *commitMessage = [commitMessageView string];
-	if ([commitMessage length] < 3) {
-		[[repository windowController] showMessageSheet:@"Commitmessage missing" infoText:@"Please enter a commit message before committing"];
-		return;
-	}
 
 	[cachedFilesController setSelectionIndexes:[NSIndexSet indexSet]];
 	[unstagedFilesController setSelectionIndexes:[NSIndexSet indexSet]];
